@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
@@ -13,7 +14,7 @@ body{
 }
 
 .container{
-    width: 480px;
+    width: 700px;
     height: 700px;
     display: block;
     background-image: url(img_trena.png);
@@ -359,4 +360,15 @@ input{
 .btn_limpar:hover{
     background: #e1810a;
     color: #000;
+}
+
+
+@media(max-width: 480px){
+    .container{
+        width: 400px;
+    }
+    h1.titulo{
+    display: block;
+    text-align: center;
+    }
 }
