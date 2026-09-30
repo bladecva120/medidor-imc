@@ -321,6 +321,7 @@ input{
 }
 
 .botoes{
+    display: flex;
     justify-self: center;
     gap: 20px;
     margin-top: 10px;
