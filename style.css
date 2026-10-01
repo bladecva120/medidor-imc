@@ -244,12 +244,11 @@ h1.titulo{
     position: absolute;
     color: #fff;
     left: 50%;
-    top: 40%;
+    top: 45%;
     transform: translate(-50%, 150%);
     z-index: 4;
     width: 120px;
-    display: flex;
-    flex-direction: column;
+    display: block;
     gap: 5px;
 }
 
@@ -257,9 +256,9 @@ input{
     width: 100%;
     border: none;
     border: 1px solid;
-    padding: 5px;
+    padding: 2px;
     border-radius: 5px;
-    font-size: 15px;
+    font-size: 18px;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .valor{
@@ -466,16 +465,16 @@ input{
         font-size: 35px;
         display: inline-block;
         transform: rotate(-38deg);
-        left: -43px;
-        top: -13px;
+        left: -37px;
+        top: -17px;
     }
     .escala span#n4::after{
         content: "|";
         position: absolute;
         font-size: 35px;
         display: inline-block;
-        right: 50px;
-        top: -42px;
+        right: 35px;
+        top: -39.5px;
     }
     .escala span#n5::after{
         content: "|";
@@ -483,17 +482,17 @@ input{
         display: inline-block;
         font-size: 35px;
         transform: rotate(37deg);
-        right: 17px;
-        top: -56px;
+        right: 10px;
+        top: -50px;
     }
     .escala span#n6::after{
         content: "|";
         position: absolute;
         display: inline-block;
         font-size: 35px;
-        transform: rotate(74deg);
+        transform: rotate(72deg);
         right: -15px;
-        top: -52px;
+        top: -49px;
     }
 
     .escala span#n1::before{
@@ -519,8 +518,8 @@ input{
         font-size: 25px;
         display: inline-block;
         transform: rotate(-18deg);
-        left: 1px;
-        top: -32px;
+        left: -4px;
+        top: -30px;
     }
     .escala span#n4::before{
         content: "|";
@@ -547,6 +546,7 @@ input{
         font-size: 25px;
         transform: rotate(90deg);
         right: -23px;
+        top: -6px;
     }
     .escala span#n7::before{
         content: "|";
@@ -560,12 +560,12 @@ input{
 
     .dados{
         left: 50%;
-        top: 40%;
-        width: 75px;
+        top: 42%;
+        width: 100px;
     }
 
     input{
-        font-size: 10px;
+        font-size: 15px;
     }
     .valor{
         top: 68%;
@@ -580,7 +580,7 @@ input{
     }
     .agulha{
         width: 6px;
-        height: 80px;
+        height: 90px;
     }
     .pino{
         width: 8px;

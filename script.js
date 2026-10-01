@@ -7,7 +7,6 @@ let btnCalcular = document.querySelector('.btn_calcular');
 let btnLimpar = document.querySelector('.btn_limpar');
 
 
-
 let anguloInicial = -125;
 
 btnCalcular.addEventListener('click', function(){
@@ -24,6 +23,7 @@ btnCalcular.addEventListener('click', function(){
     let imcLimitado = Math.max(15, Math.min(imc, 40));
     let angulo = ((imcLimitado - 15) / 25) * 180 - 90;
     /*let angulo = ((imc - 15) / (40 - 15)) * (90 - (-90)) + (-90);*/
+
 
      if(imc < 18.5){
         ponteiro.style.transition = `transform 2s ease-out`;
@@ -55,15 +55,3 @@ btnLimpar.addEventListener('click', function(){
     valor.innerHTML = "00,00";
     ponteiro.style.transform = `rotate(${anguloInicial}deg)`;
 });
-
-
-
-
-
-
-
-
-   
-
-    
-
